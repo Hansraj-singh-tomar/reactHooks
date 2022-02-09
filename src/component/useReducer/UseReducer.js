@@ -38,8 +38,6 @@ const reducer = (state, action) => {           // reducer function takes two par
     }
     // instate of if_else we can use switch case
     return state;
-
-
 }
 
 const UseReducer = () => {

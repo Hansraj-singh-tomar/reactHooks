@@ -11,16 +11,25 @@
 // import UseEffect2 from './component/useEffect/UseEffect2';
 // import UseEffectAPI from './component/useEffect/UseEffectAPI';
 // import UnControlled from './component/forms/UnControlled';
+// import UnControlled2 from "./component/forms/UnControlled2";
 // import UseReducer from './component/useReducer/UseReducer';
+// import CounterOne from "./component/useReducer/codevolution/CounterOne";
+import CounterTwo from "./component/useReducer/codevolution/CounterTwo";
 // import CompA from './component/useContext/CompA';
 // import Test from './component/customHook/Test';
 // import Test2 from "./component/customHook/Test2";
 // import Alert from './component/reactToastify/alert';  // React - toastify ka use kiya hai isme
 // import Todo from "./component/reactTodo/todo";
-// import PureCom from "./component/code step by step/PureCom";  // Pure Component through state 
-// import PureCom2 from "./component/code step by step/throughProps/PureCom2"; // Pure Component through props 
+// import PureCom from "./component/code step by step/pure,usememo/PureCom";  // Pure Component through state 
+// import PureCom2 from "./component/code step by step/pure,usememo/throughProps/PureCom2"; // Pure Component through props 
+// import UseMemo from "./component/code step by step/pure,usememo/UseMemo";
+// import Ref from "./component/code step by step/ref,useRef/ref";
+// import UseRefHook from "./component/code step by step/ref,useRef/useRefHook";
+// import UseRefExp from "./component/code step by step/ref,useRef/useRefExp";
+// import Home from "./component/code step by step/ref,useRef/forwardRef/Home";
+// import HighOrderFun from "./component/code step by step/HOC/HighOrderFun";
 
-import UseMemo from "./component/code step by step/UseMemo";
+
 
 
 const App = () => {
@@ -73,7 +82,10 @@ const App = () => {
       {/* <UseEffect2 /> */}
       {/* <UseEffectAPI /> */}
       {/* <UnControlled /> */}
+      {/* <UnControlled2 /> */}
       {/* <UseReducer /> */}
+      {/* <CounterOne /> */}
+      <CounterTwo />
       {/* <CompA /> */}
       {/* <Test/> */}
       {/* <Test2 /> */}
@@ -81,7 +93,12 @@ const App = () => {
       {/* <Todo /> */}
       {/* <PureCom /> */}
       {/* <PureCom2 /> */}
-      <UseMemo />
+      {/* <UseMemo /> */}
+      {/* <Ref /> */}
+      {/* <UseRefHook /> */}
+      {/* <UseRefExp /> */}
+      {/* <Home /> */}
+      {/* <HighOrderFun /> */}
     </div>
   );
 }

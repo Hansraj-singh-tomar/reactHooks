@@ -1,3 +1,5 @@
+// react toastify ek npm package hai jo alert ke liye use ki jati hai, issme hame different type ke alert dekhne ko milte hai  
+
 import React from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';

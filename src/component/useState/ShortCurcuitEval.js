@@ -1,7 +1,7 @@
 // Short Circuit Evaluation with React | Logical && and || Operators in ReactJS
 // Short Circuit Evaluation ye bolta hai ki agar aapko HTML ke andar multiple data ko rendering karvana ho then ham Short Circuit Evaluation ka use le sakte ho
 // Short Circuit Evaluation me && and || ka use hota hai
-// agar ye shi hai to ye dikho or agar ye shi nhi hai to ye dikhao mtlb if_else condition
+// agar ye shi hai to ye dikhao or agar ye shi nhi hai to ye dikhao mtlb if_else condition
 
 // defination - we can do multiple rendering with help of || and && operator
 

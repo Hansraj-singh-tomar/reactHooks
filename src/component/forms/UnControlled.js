@@ -18,6 +18,9 @@
 
 // That is the simplest way to implement the form inputs.There certainly are valid cases for using it: in simple forms in the real world; and when learning React.
 
+//!  Class based component support control type functionality
+//!  React ke andar input fields ko state ke through controll karte hai to unko ham controlled component kehte hai
+//! uncontrolled component vo component hote hai jo directly DOM ke through handle hote hai 
 
 // Ek bar load hone par hi ham data ko put kar sakte hai 
 // dusri bar dalne ke liye hame refresh karna padega page ko

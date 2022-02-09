@@ -14,11 +14,9 @@ const Test = () => {
     return (
         <div>
             <h1>{count}</h1>
-            <button className="btn" onClick={
-                () => setCount(count + 1)
-            } >Click Test😀</button>
+            <button className="btn" onClick={() => setCount(count + 1)} >Click Test😀</button>
         </div>
     )
 }
 
-export default Test
+export default Test;
