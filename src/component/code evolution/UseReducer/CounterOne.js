@@ -22,12 +22,12 @@ const CounterOne = () => {
         <div>
             <h1>Count - {count}</h1>
             <button onClick={() => dispatch('increment')}>Inc</button>
-            <button onClick={() => dispatch('increment')}>Dec</button>
-            <button onClick={() => dispatch('increment')}>Reset</button>
+            <button onClick={() => dispatch('decrement')}>Dec</button>
+            <button onClick={() => dispatch('reset')}>Reset</button>
         </div>
     );
 };
-
+// through this dispatch method we pass argument increment jo action paramenter le rha hota hai  
 export default CounterOne;
 
 

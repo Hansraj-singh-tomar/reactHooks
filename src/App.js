@@ -1,4 +1,10 @@
 // import './App.css';
+
+
+
+
+// ! vinod thapa folder and files
+
 // import react, { useState } from 'react';
 // import RulesHook from './component/useState/RulesHook';
 // import UseStateArray from './component/useState/UseStateArray';
@@ -13,13 +19,14 @@
 // import UnControlled from './component/forms/UnControlled';
 // import UnControlled2 from "./component/forms/UnControlled2";
 // import UseReducer from './component/useReducer/UseReducer';
-// import CounterOne from "./component/useReducer/codevolution/CounterOne";
-import CounterTwo from "./component/useReducer/codevolution/CounterTwo";
 // import CompA from './component/useContext/CompA';
 // import Test from './component/customHook/Test';
 // import Test2 from "./component/customHook/Test2";
 // import Alert from './component/reactToastify/alert';  // React - toastify ka use kiya hai isme
 // import Todo from "./component/reactTodo/todo";
+
+// ! code step by step folder and files
+
 // import PureCom from "./component/code step by step/pure,usememo/PureCom";  // Pure Component through state 
 // import PureCom2 from "./component/code step by step/pure,usememo/throughProps/PureCom2"; // Pure Component through props 
 // import UseMemo from "./component/code step by step/pure,usememo/UseMemo";
@@ -28,8 +35,34 @@ import CounterTwo from "./component/useReducer/codevolution/CounterTwo";
 // import UseRefExp from "./component/code step by step/ref,useRef/useRefExp";
 // import Home from "./component/code step by step/ref,useRef/forwardRef/Home";
 // import HighOrderFun from "./component/code step by step/HOC/HighOrderFun";
+// import ParentComp from "./component/code step by step/Lifting state up/ParentComp";
+// import ArrListingWithMap from "./component/code step by step/Array listing with map function/ArrListingWithMap";
+// import NestedList from "./component/code step by step/Array listing with map function/NestedList";
+// import ReuseComp from "./component/code step by step/Array listing with map function/reUserCompnent/ReuseComp";
+// import Construc from "./component/code step by step/life cycle method/Construc";
+// import RenderMethod from "./component/code step by step/life cycle method/render/RenderMethod";
+// import CompDidMount from "./component/code step by step/life cycle method/CompDidMount";
+// import CompDidUpdate from "./component/code step by step/life cycle method/CompDidUpdate";
+// import ShouldCompnentUpdate from "./component/code step by step/life cycle method/ShouldCompUpdate";
+// import CompWillUnmount from "./component/code step by step/life cycle method/UnMount/CompWillUnmount";
+// import PreStateExp from "./component/code step by step/preState and preProps/PreStateExp";
+// import PrePropsExp from "./component/code step by step/preState and preProps/PrePropsExp";
+// import ClickEventAndFun from "./component/code step by step/BasicRules/ClickEventAndFun";
+// import GetInputBoxVal from "./component/code step by step/BasicRules/GetInputBoxVal";
+// import HIdeShowToggle from "./component/code step by step/BasicRules/HIdeShowToggle";
+// import HandleForm from "./component/code step by step/BasicRules/HandleForm";
+// import ConditionalRendering from "./component/code step by step/BasicRules/ConditionalRendering";
+// import BasicFormValidation from "./component/code step by step/BasicRules/BasicFormValidation";
+import PassFunAsProps from "./component/code step by step/BasicRules/PassFunAsProps";
 
+// ! code evolution folders and files 
 
+// import CounterOne from "./component/code evolution/UseReducer/CounterOne";
+// import CounterTwo from "./component/code evolution/UseReducer//CounterTwo";
+// import CounterThree from "./component/code evolution/UseReducer//CounterThree";
+// import App2 from "./component/code evolution/UseReducer/red_with_context/App2";
+// import DataFetchingOne from "./component/code evolution/UseReducer/DataFetchingOne";
+// import DataFetchingTwo from "./component/code evolution/UseReducer/DataFetchingTwo";
 
 
 const App = () => {
@@ -84,13 +117,13 @@ const App = () => {
       {/* <UnControlled /> */}
       {/* <UnControlled2 /> */}
       {/* <UseReducer /> */}
-      {/* <CounterOne /> */}
-      <CounterTwo />
       {/* <CompA /> */}
       {/* <Test/> */}
       {/* <Test2 /> */}
       {/* <Alert /> */}
       {/* <Todo /> */}
+
+      {/* code step by step component */}
       {/* <PureCom /> */}
       {/* <PureCom2 /> */}
       {/* <UseMemo /> */}
@@ -99,8 +132,39 @@ const App = () => {
       {/* <UseRefExp /> */}
       {/* <Home /> */}
       {/* <HighOrderFun /> */}
+      {/* <ParentComp /> */}
+      {/* <ArrListingWithMap /> */}
+      {/* <NestedList /> */}
+      {/* <ReuseComp /> */}
+      {/* <Construc /> */}
+      {/* <RenderMethod /> */}
+      {/* <CompDidMount /> */}
+      {/* <CompDidUpdate /> */}
+      {/* <ShouldCompnentUpdate /> */}
+      {/* <CompWillUnmount /> */}
+      {/* <PreStateExp /> */}
+      {/* <PrePropsExp /> */}
+      {/* <ClickEventAndFun /> */}
+      {/* <GetInputBoxVal /> */}
+      {/* <HIdeShowToggle /> */}
+      {/* <HandleForm /> */}
+      {/* <ConditionalRendering /> */}
+      {/* <BasicFormValidation /> */}
+      <PassFunAsProps />
+
+
+      {/* code evolution component */}
+      {/* <CounterOne /> */}
+      {/* <CounterTwo /> */}
+      {/* <CounterThree /> */}
+      {/* <App2 /> */}
+      {/* <DataFetchingOne /> */}
+      {/* <DataFetchingTwo /> */}
+
     </div>
   );
 }
 
 export default App;
+
+

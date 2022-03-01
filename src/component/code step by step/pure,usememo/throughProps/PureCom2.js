@@ -1,5 +1,5 @@
 // ! pureCom.js me  state ke upar dekha tha Pure component 
-// !NOw we will see Pure component on props 
+// ! Now we will see Pure component on props 
 
 import React from 'react';
 import User from './User';

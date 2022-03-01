@@ -67,7 +67,7 @@ const UseStateArray = () => {
                     );
                 })
             }
-            <button button className="btn" onClick={clearArray}>clear list</button>
+            <button className="btn" onClick={clearArray}>clear list</button>
         </>
     )
 }
