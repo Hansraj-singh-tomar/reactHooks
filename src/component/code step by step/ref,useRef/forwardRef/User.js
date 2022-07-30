@@ -4,10 +4,10 @@ import React, { forwardRef } from 'react';
 // itna kar dene par user ke andar forwardRef aa gya hai ab bas use karna hai
 // ! class base compenent me same tarike se karne hai, export default forwardRef(User) - yha par classBase component ko wrap kar dena hai 
 
-const User = (props, ref) => {    // ye hame props ke andar nhi milega ye hame second parameter ref me milega 
+const User = (props, refprop) => {    // ye hame props ke andar nhi milega ye hame second parameter ref me milega 
     return (
         <div>
-            <input type="text" ref={ref} />
+            <input type="text" ref={refprop} />
         </div>
     );
 };

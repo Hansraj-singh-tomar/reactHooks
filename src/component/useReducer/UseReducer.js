@@ -22,12 +22,13 @@ the current state and a dispatch function. */
 import React from 'react';
 import './reducers.css';
 
-const initialState = 0; // ! 0 ki jagah multiple object bhi pass kar sakta hu as a initialState 
+const initialState = 5; // ! 0 ki jagah multiple object bhi pass kar sakta hu as a initialState 
 
 const reducer = (state, action) => {           // reducer function takes two parameter pehla current state and second action method/function
     // hame 2 action perform karne hai first is increament vala and second is decrement vala
 
-    // console.log(state, action);  // TODO :  0 {type: 'INCREMENT'} on click of increment button
+    // console.log(state, action);  // TODO :  5 {type: 'INCREMENT'} on click of increment button
+    // console.log(state, action);  // TODO :  5 {type: 'DECREMENT'} on click of decrement button
 
     // ! {type: "INCREMENT"}, me type attribute se action method ko pta chalega ki ye logic trigger karna hai
     if (action.type === 'INCREMENT') {
@@ -41,8 +42,8 @@ const reducer = (state, action) => {           // reducer function takes two par
 }
 
 const UseReducer = () => {
-
-    // const [count, setCount] = React.useState(0);
+    // react useReducer return two elements as an array
+    // const [count, setCount] = React.useState(0);  // initialState = state,  count = state and setCount = dispatch
     const [state, dispatch] = React.useReducer(reducer, initialState); // ! ab hame iss reducer function ko define karna hai ham isse iss component ke andar or component ke bahar or dusre folder or dusri file me bhi define kar sakte hai
     // UseReducer(reducer, 0);  //  initialState ko ese bhi direct difine kar sakta hu ya const initialState = 0; variable bna kar bhi use kar sakta hu 
     // dispatch - jis bhi address par apka product bhejna hai ab vo vha aa jayega
@@ -55,6 +56,7 @@ const UseReducer = () => {
                 <div className='btnStylePosition'>
                     <button onClick={() => dispatch({ type: "INCREMENT" })}> INC </button>
                     <button onClick={() => dispatch({ type: "DECREMENT" })}> DEC </button>
+                    {/* dispatch ka kya kam hai -> trigger the action method */}
                 </div>
             </div>
         </>
@@ -62,6 +64,7 @@ const UseReducer = () => {
 };
 
 export default UseReducer;
+
 
 
 

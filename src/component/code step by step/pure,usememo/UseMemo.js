@@ -18,7 +18,7 @@ const UseMemo = () => {
     const multiCountMemo = useMemo(function multiCount() {
         console.warn("multicount");
         return count * 5
-    }, [count]);   // [count] ka mtlb ye tabhi chalega jab count update hoga  
+    }, [count]);  // [count] ka mtlb ye tabhi chalega jab count update hoga  
 
     return (
         <>

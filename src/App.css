@@ -140,7 +140,7 @@ button[type]:hover {
 
 .showDataStyle p:first-child {
   font-weight: bold;
-}
+} 
 
 /* ye css github user vale project me use kar rhe honge*/
 
@@ -196,4 +196,28 @@ h2 {
 }
 .number3 {
   font-weight: 500;
+}
+
+.navbar li{
+  display: inline-block;
+  padding: 10px 5px;
+}
+
+.navbar{
+  text-align: right;
+} 
+
+.nav-bar-link{
+  color: rgb(140, 196, 138);
+  text-decoration: none;
+}
+
+.nav-bar-link:hover{
+  color: #ec150e;
+}
+
+/* active class hame bydefault mil rhe hai link ke upar click karne par */
+.navbar .active{
+  color: #0c0108;
+  background-color: #19e623;
 }

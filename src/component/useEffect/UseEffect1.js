@@ -95,3 +95,10 @@ export default UseEffect1
 // }, [countn]);   // ab [countn] ka mtlb ye hai ki jab jab countn ki vlaue change hogi tabhi useeffect chalega
 
 // jab ham multiple useEffect use karenge to usme jo pehle define hai uska output pehle milega
+
+
+// useEffect hook use hota hai as an life cycle method
+// jab bhi hamara component bnega tab ye call hoga 
+// koi bhi state/props update hogi tab ye call hoga 
+// isme ham conditions lga sakte hai - exp: hamare pass four state hai and vo sirf ek ke upar hi chale tab ham vha condition lga sakte hai 
+// useEffect hool use as componentDidMount, componentDidUpdate and componentWillUnmount combined.

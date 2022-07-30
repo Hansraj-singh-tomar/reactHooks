@@ -7,12 +7,6 @@
 // pure component ye match karega ki pehle vala jo nam tha state ke andar or ab jo dala hai dono same hai ya alag alag hai agar dono same hai to vo re-rendering nhi karega or alag alag hai to vo re-rendering karega
 
 
-// ye function component hai
-// import React from 'react';
-// const PureComponent = () => {
-//     return <div></div>;
-// };
-// export default PureComponent;
 
 // class component
 // ! State ke upar dekhenge Pure component 
@@ -41,7 +35,7 @@ class PureCom extends PureComponent {   // yha se bhi PureComponent ko import ka
 
 
     // upar jo render() method hai usme count ki value change ho rhi hai to component re-render ho rha hai but kya ho agar setCount() ke through count
-    // ki value change na ho but tab bhi hamar component rerender ho rha hai jo ek galat baat hai to iss chij ko resolve karne ke liyw hamare pass pure component hai 
+    // ki value change na ho but tab bhi hamar component rerender ho rha hai jo ek galat baat hai to iss chij ko resolve karne ke liye hamare pass pure component hai 
 
     // render() {
     //     console.warn("check rerendering");

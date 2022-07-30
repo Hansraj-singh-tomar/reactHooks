@@ -25,11 +25,10 @@ const PreStateExp = () => {
         // for (let i = 0; i < 5; i++){
         //     setCount(count + 1);    // but yha hamari value 5 se increase nhi ho rhi hai ye isko ek se hi increase kar rha hai  
         // }
-
-        for (let i = 0; i < 5; i++) {
+        // setCount((pre) => pre + 1); // 1,2,3,4,5 and so on ....
+        for (let i = 2; i < 5; i++) {
             setCount((pre) => pre + 1);  // ye bilkul shi work kar rha hai 
         }
-
     }
     return (
         <div>

@@ -13,12 +13,18 @@ const HandleForm = () => {
         setInterest("");
         setTnc(false);
     }
-
+    // value={interest}
+    // value={name}
+    // checked={tnc}
     return (
         <div>
             <h1>Handle Form in React</h1>
+            <h1>{tnc}</h1>
+            <h1>{name}</h1>
+            <h1>{interest}</h1> 
             <form onSubmit={getFormData}>
-                <input type="text" placeholder='enter your name' value={name} onChange={(e) => setName(e.target.value)} /> <br /><br />
+                <input value={name} type="text" placeholder='enter your name'  onChange={(e) => setName(e.target.value)} /> 
+                <br /><br />
                 <select value={interest} onChange={(e) => setInterest(e.target.value)}>
                     <option>Select Options</option>
                     <option>Marvel</option>
@@ -35,3 +41,7 @@ const HandleForm = () => {
 }
 
 export default HandleForm
+
+
+
+

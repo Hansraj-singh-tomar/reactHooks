@@ -3,6 +3,10 @@
 
 
 
+
+
+
+
 // ! vinod thapa folder and files
 
 // import react, { useState } from 'react';
@@ -15,6 +19,7 @@
 // import MultipleInputs from './component/forms/MultipleInputs';
 // import UseEffect1 from './component/useEffect/UseEffect1';
 // import UseEffect2 from './component/useEffect/UseEffect2';
+// import {UseEffect3} from './component/useEffect/UseEffect3';
 // import UseEffectAPI from './component/useEffect/UseEffectAPI';
 // import UnControlled from './component/forms/UnControlled';
 // import UnControlled2 from "./component/forms/UnControlled2";
@@ -24,6 +29,7 @@
 // import Test2 from "./component/customHook/Test2";
 // import Alert from './component/reactToastify/alert';  // React - toastify ka use kiya hai isme
 // import Todo from "./component/reactTodo/todo";
+
 
 // ! code step by step folder and files
 
@@ -39,7 +45,7 @@
 // import ArrListingWithMap from "./component/code step by step/Array listing with map function/ArrListingWithMap";
 // import NestedList from "./component/code step by step/Array listing with map function/NestedList";
 // import ReuseComp from "./component/code step by step/Array listing with map function/reUserCompnent/ReuseComp";
-// import Construc from "./component/code step by step/life cycle method/Construc";
+import Construc from "./component/code step by step/life cycle method/Construc";
 // import RenderMethod from "./component/code step by step/life cycle method/render/RenderMethod";
 // import CompDidMount from "./component/code step by step/life cycle method/CompDidMount";
 // import CompDidUpdate from "./component/code step by step/life cycle method/CompDidUpdate";
@@ -53,7 +59,24 @@
 // import HandleForm from "./component/code step by step/BasicRules/HandleForm";
 // import ConditionalRendering from "./component/code step by step/BasicRules/ConditionalRendering";
 // import BasicFormValidation from "./component/code step by step/BasicRules/BasicFormValidation";
-import PassFunAsProps from "./component/code step by step/BasicRules/PassFunAsProps";
+// import PassFunAsProps from "./component/code step by step/BasicRules/PassFunAsProps";
+// import StateWithObject from "./component/code step by step/StateWithObject";
+// import App2 from "./component/code step by step/ErrorBoundary/App2";
+// import App3 from "./component/code step by step/TypeCheckingWithPropType/App3";
+// import App1 from "./component/code step by step/Lazy Loading/App1";
+// import ControlledComp from "./component/code step by step/Cont&UnContComponent/ControlledComp";
+// import UncontrolledComp from "./component/code step by step/Cont&UnContComponent/UncontrolledComp";
+// import GetMethod from "./component/code step by step/CRUDOperation/GetMethod";
+// import PostMethod from "./component/code step by step/CRUDOperation/PostMethod";
+// import DeleteMethod from "./component/code step by step/CRUDOperation/DeleteMethod";
+// import PreFilledForm from "./component/code step by step/CRUDOperation/PreFilledForm";
+// import UploadFile from "./component/code step by step/CRUDOperation/UploadFile";
+// import JWTAuthentication from "./component/code step by step/CRUDOperation/JWTAuthentication";
+// import DemoComp from "./component/code step by step/DemoComp";
+
+
+// import ParentComp from "./component/code step by step/ReactRouterV6/ParentComp";
+
 
 // ! code evolution folders and files 
 
@@ -95,7 +118,7 @@ const App = () => {
   //   setMyName("vinod thapa");
   // } else {
   //   setMyName("thapa technical");
-  // }
+  // } 
 
   // now using ternary operator
   // (val === "thapa technical") ? setMyName("vinod thapa") : setMyName("thapa technical");
@@ -113,6 +136,7 @@ const App = () => {
       {/* <MultipleInputs /> */}
       {/* <UseEffect1 /> */}
       {/* <UseEffect2 /> */}
+      {/* <UseEffect3 /> */}
       {/* <UseEffectAPI /> */}
       {/* <UnControlled /> */}
       {/* <UnControlled2 /> */}
@@ -136,7 +160,7 @@ const App = () => {
       {/* <ArrListingWithMap /> */}
       {/* <NestedList /> */}
       {/* <ReuseComp /> */}
-      {/* <Construc /> */}
+      <Construc />
       {/* <RenderMethod /> */}
       {/* <CompDidMount /> */}
       {/* <CompDidUpdate /> */}
@@ -150,10 +174,28 @@ const App = () => {
       {/* <HandleForm /> */}
       {/* <ConditionalRendering /> */}
       {/* <BasicFormValidation /> */}
-      <PassFunAsProps />
+      {/* <PassFunAsProps /> */}
+      {/* <StateWithObject/> */}
+      {/* <App1/> */}
+      {/* <App2/> */}
+      {/* <App3/> */}
+      {/* <ControlledComp/> */}
+      {/* <UncontrolledComp/> */}
+      {/* <GetMethod/> */}
+      {/* <PostMethod/> */}
+      {/* <DeleteMethod/> */}
+      {/* <PreFilledForm/> */}
+      {/* <UploadFile/> */}
+      {/* <JWTAuthentication/> */}
+      {/* <DemoComp/> */}
+
+      {/* React Router V6 - code step by step  */}
+      {/* <ParentComp/> */}
+
 
 
       {/* code evolution component */}
+      
       {/* <CounterOne /> */}
       {/* <CounterTwo /> */}
       {/* <CounterThree /> */}

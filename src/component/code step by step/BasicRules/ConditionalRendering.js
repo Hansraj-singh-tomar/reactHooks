@@ -12,8 +12,9 @@ const ConditionalRendering = () => {
     // )
 
     // jab if_else_if_else nested if_else ho tab 
-    const [logIN, setLogIN] = React.useState(3);
+    // const [logIN, setLogIN] = React.useState(3);
     //  jab teen user ho tab like - 1,2,3 
+    var logIN = 1;
     return (
         <div>
             {
@@ -25,3 +26,20 @@ const ConditionalRendering = () => {
 }
 
 export default ConditionalRendering
+
+
+// import React from 'react'
+
+// const ConditionalRendering = () => {
+//     var logIN = 2;  // User e LogIn
+//     return (
+//         <div>
+//             {
+//                 logIN === 1 ? <h1>User 1 LogIn</h1> : logIN === 2 ? <h1> User 2 LogIn</h1> : <h1>User 3 LogIn</h1>
+//             }
+//         </div>
+//     )
+
+// }
+
+// export default ConditionalRendering;

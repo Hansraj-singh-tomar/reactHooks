@@ -11,9 +11,9 @@ const BasicFormValidation = () => {
     function loginHandle(e) {
         e.preventDefault();
         if (user.length < 3 || password.length < 3) {
-            alert("please type correst values")
+            alert("please type correct values");
         } else {
-            alert("all good 👍")
+            alert("all good 👍");
         }
 
     }

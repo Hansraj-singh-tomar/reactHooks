@@ -13,6 +13,7 @@ const HighOrderFun = () => {
             <HOCRed cmp={Counter} />
             <HOCGreen cmp={Counter} />
             <HOCBlue cmp={Counter} />
+            {/* Here we are passing Counter Component */}
         </div>
     );
 };

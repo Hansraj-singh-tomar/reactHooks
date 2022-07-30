@@ -12,8 +12,6 @@
 
 
 
-
-
 import React, { Component, createRef } from 'react';
 
 class Ref extends Component {
@@ -28,7 +26,6 @@ class Ref extends Component {
         // console.warn(this.inputRef);  // isme hame sari ki sari properties mil jayegi ref ki 
         // console.warn(this.inputRef.current.value = "1000")  // ye 1000 hame input ke andar dikhega iss tarah se ham Dom ko manipulate kar sakte hai 
     }
-
     getVal() {
         console.warn(this.inputRef);
         console.warn(this.inputRef.current.value); // ab jo bhi value input me likhunga vo mujhe console me dekhne ko milegi mtlb ham yha input ki value bhi get kar sakte hai 
