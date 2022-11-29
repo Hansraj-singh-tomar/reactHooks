@@ -13,7 +13,7 @@ const useRefHook = () => {
         inputRef.current.value = "hansraj";
 
         // jaise hi ham input ke andar kuch likhte hai to focus aa jata hai or button ke click karne par vo vapas chala jata hai to usse vapas add karne ke liye ham focus() ka use karege
-        inputRef.current.focus();
+        inputRef.current.focus();  // isse useEffect me likhunga to mera input hamesa focus mode me rhega
 
         // ab style change karenge
         inputRef.current.style.color = "red"

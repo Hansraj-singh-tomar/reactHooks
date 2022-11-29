@@ -1,6 +1,7 @@
 // ! HOC(high order component) - ek component jo ek dusre component ko as an props leta ho or ek alag se component return karta ho
 //  yani ki ek simple component hoga jo component hi as a input lega or component hi as a output dega.
 
+// code repeatative na ho iski problem solve karta hai 
 
 import React, { useState } from 'react';
 
@@ -40,3 +41,13 @@ function Counter() {
 }
 
 export default HighOrderFun;
+
+
+// ** A Higher-Oreder Component(HOC) is an advanced technique in React for reusing component logic.
+// HOCs are common in third-party React libraries.
+// A HOC is a function that takes a component and returns a new component.
+// syntax :- const EnhancedComponent = higherOrderComponent(WrappedComponent);
+// Ex. 1. const FacebookJob = withLanguage(ReactJS)
+//     2. const Army = withArm(Men){
+//     3. const Army = (Men) => { training }
+// ! same component logic ko bar bar likhenge alag alag compnent me to vha ham HOC ka use karenge 

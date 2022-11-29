@@ -9,16 +9,16 @@ const UseMemo = () => {
     const [count, setCount] = useState(0);
     const [item, setItem] = useState(10);
 
-    // function multiCount() {
-    //     console.warn("multicount");
-    //     return count * 5
-    // }
+    function multiCount() {
+        console.log("multicount"); // yha update count and update item dono button par click karne par multiCount function chal rha hai jo ki sirf update count button par click karne par hi chalna chahiye tha  
+        return count * 5;
+    }
 
     // ! iss multiCount function ko useMemo ke through use karenge 
-    const multiCountMemo = useMemo(function multiCount() {
-        console.warn("multicount");
-        return count * 5
-    }, [count]);  // [count] ka mtlb ye tabhi chalega jab count update hoga  
+    // const multiCountMemo = useMemo(function multiCount() {
+    //     console.warn("multicount");
+    //     return count * 5
+    // }, [count]);  // [count] ka mtlb ye tabhi chalega jab count update hoga  
 
     return (
         <>
@@ -26,8 +26,8 @@ const UseMemo = () => {
             <h2>Count : {count}</h2>
             <h2>Item : {item}</h2>
             {/* ab me yha par kya karta hu ek function ka use karta hu jo mujhe kuch return karega count ka kuch multiply */}
-            {/* <h2>{multiCount()}</h2> */}
-            <h2>{multiCountMemo}</h2>
+            <h2>{multiCount()}</h2>
+            {/* <h2>{multiCountMemo}</h2> */}
             <button onClick={() => setCount(count + 1)}>Update Count</button>
 
             <button onClick={() => setItem(item * 10)}>Update Item</button>

@@ -21,6 +21,7 @@
 // import UseEffect2 from './component/useEffect/UseEffect2';
 // import {UseEffect3} from './component/useEffect/UseEffect3';
 // import UseEffectAPI from './component/useEffect/UseEffectAPI';
+// import UseLayoutEffectHook from "./component/useEffect/UseLayoutEffectHook/UseLayoutEffectHook";
 // import UnControlled from './component/forms/UnControlled';
 // import UnControlled2 from "./component/forms/UnControlled2";
 // import UseReducer from './component/useReducer/UseReducer';
@@ -45,7 +46,7 @@
 // import ArrListingWithMap from "./component/code step by step/Array listing with map function/ArrListingWithMap";
 // import NestedList from "./component/code step by step/Array listing with map function/NestedList";
 // import ReuseComp from "./component/code step by step/Array listing with map function/reUserCompnent/ReuseComp";
-import Construc from "./component/code step by step/life cycle method/Construc";
+// import Construc from "./component/code step by step/life cycle method/Construc";
 // import RenderMethod from "./component/code step by step/life cycle method/render/RenderMethod";
 // import CompDidMount from "./component/code step by step/life cycle method/CompDidMount";
 // import CompDidUpdate from "./component/code step by step/life cycle method/CompDidUpdate";
@@ -61,6 +62,7 @@ import Construc from "./component/code step by step/life cycle method/Construc";
 // import BasicFormValidation from "./component/code step by step/BasicRules/BasicFormValidation";
 // import PassFunAsProps from "./component/code step by step/BasicRules/PassFunAsProps";
 // import StateWithObject from "./component/code step by step/StateWithObject";
+// import StateWithArray from "./component/code step by step/StateWithArray";
 // import App2 from "./component/code step by step/ErrorBoundary/App2";
 // import App3 from "./component/code step by step/TypeCheckingWithPropType/App3";
 // import App1 from "./component/code step by step/Lazy Loading/App1";
@@ -76,6 +78,11 @@ import Construc from "./component/code step by step/life cycle method/Construc";
 
 
 // import ParentComp from "./component/code step by step/ReactRouterV6/ParentComp";
+
+// Yoshita jain 
+import Counter1 from "./component/customHook/byYoshitaJain/Counter1";
+import Counter2 from "./component/customHook/byYoshitaJain/Counter2";
+// import { UseCallbackHook } from "./component/useCallbackHook/UseCallbackHook";
 
 
 // ! code evolution folders and files 
@@ -138,6 +145,7 @@ const App = () => {
       {/* <UseEffect2 /> */}
       {/* <UseEffect3 /> */}
       {/* <UseEffectAPI /> */}
+      {/* <UseLayoutEffectHook/> */}
       {/* <UnControlled /> */}
       {/* <UnControlled2 /> */}
       {/* <UseReducer /> */}
@@ -160,7 +168,7 @@ const App = () => {
       {/* <ArrListingWithMap /> */}
       {/* <NestedList /> */}
       {/* <ReuseComp /> */}
-      <Construc />
+      {/* <Construc /> */}
       {/* <RenderMethod /> */}
       {/* <CompDidMount /> */}
       {/* <CompDidUpdate /> */}
@@ -176,6 +184,7 @@ const App = () => {
       {/* <BasicFormValidation /> */}
       {/* <PassFunAsProps /> */}
       {/* <StateWithObject/> */}
+      {/* <StateWithArray/> */}
       {/* <App1/> */}
       {/* <App2/> */}
       {/* <App3/> */}
@@ -192,6 +201,10 @@ const App = () => {
       {/* React Router V6 - code step by step  */}
       {/* <ParentComp/> */}
 
+       {/* yoshita jain */}
+      {/* <UseCallbackHook /> */}
+      <Counter1/>
+      <Counter2/>
 
 
       {/* code evolution component */}

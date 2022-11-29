@@ -44,7 +44,7 @@ const reducer = (state, action) => {           // reducer function takes two par
 const UseReducer = () => {
     // react useReducer return two elements as an array
     // const [count, setCount] = React.useState(0);  // initialState = state,  count = state and setCount = dispatch
-    const [state, dispatch] = React.useReducer(reducer, initialState); // ! ab hame iss reducer function ko define karna hai ham isse iss component ke andar or component ke bahar or dusre folder or dusri file me bhi define kar sakte hai
+    const [count, dispatch] = React.useReducer(reducer, initialState); // ! ab hame iss reducer function ko define karna hai ham isse iss component ke andar or component ke bahar or dusre folder or dusri file me bhi define kar sakte hai
     // UseReducer(reducer, 0);  //  initialState ko ese bhi direct difine kar sakta hu ya const initialState = 0; variable bna kar bhi use kar sakta hu 
     // dispatch - jis bhi address par apka product bhejna hai ab vo vha aa jayega
     // dispatch ka kam hai tregger the action method jo increment ya decrement hai
@@ -52,7 +52,7 @@ const UseReducer = () => {
     return (
         <>
             <div>
-                <p>{state}</p>
+                <p>{count}</p>  
                 <div className='btnStylePosition'>
                     <button onClick={() => dispatch({ type: "INCREMENT" })}> INC </button>
                     <button onClick={() => dispatch({ type: "DECREMENT" })}> DEC </button>

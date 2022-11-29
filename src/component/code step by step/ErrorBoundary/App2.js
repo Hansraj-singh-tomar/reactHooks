@@ -12,6 +12,8 @@ const App2 = () => {
   )
 }
 
+// User component me jo bhi error aayegi vo ErrorBound component me jayegi or iss component me pura execute hoga or agar koi error mili to ye state update kar dega.
+
 export default App2;
 
 
