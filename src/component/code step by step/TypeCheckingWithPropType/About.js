@@ -10,6 +10,8 @@ const About = (props) => {
   )
 }
 
+
+// console me hame error dekhne ko mil jayegi if their is something fissy
 About.propTypes={
     age: PropTypes.number,
     name: PropTypes.string
